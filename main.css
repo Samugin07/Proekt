@@ -1,0 +1,69 @@
+body {
+    
+        background: linear-gradient(to left, rgb(175, 23, 23), rgb(187, 132, 29), rgb(134, 134, 29), rgb(25, 138, 25), rgb(24, 24, 133), rgb(73, 25, 107), rgb(150, 37, 150));
+        /* Вы можете добавить другие свойства, такие как ширину, высоту и позиционирование, если это необходимо */
+        body {
+            display: flex;
+            justify-content: right;
+            align-items: right;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        button {
+            background-color: #ffffff; 
+            color: rgb(22, 209, 122); 
+            padding: 15px 32px;
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 12px; 
+            margin: 4px 2px; 
+            cursor: pointer; 
+            transition-duration: 0.4s; 
+        }
+        
+        button:hover {
+            background-color: #45a049; 
+            color: white; 
+        }
+}
+
+h1 {
+    position: absolute;
+    width: 662px;
+    height: 327px;
+    left: calc(50% - 662px/2);
+    top: calc(50% - 327px/2 - 63.5px);
+    
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 85px;
+    /* or 189% */
+    text-align: center;
+    
+    color: #FFFF;
+    
+    mix-blend-mode: normal;
+    border: 1px solid #000000;
+}
+
+p {
+    position: absolute;
+width: 552px;
+height: 335px;
+left: calc(50% - 552px/2 - 250px);
+top: 770px;
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 75px;
+/* or 312% */
+text-align: center;
+
+color: #FFFF;
+
+}
