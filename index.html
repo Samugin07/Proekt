@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+    function openDirectory() {
+        // Проверяем поддержку File System Access API
+        if ('showDirectoryPicker' in window) {
+            // Запрашиваем доступ к каталогу
+            window.showDirectoryPicker().then(handleDirectory);
+        } else {
+            console.error('File System Access API не поддерживается в этом браузере.');
+        }
+    }
+    function handleDirectory(directoryHandle) {
+    console.log('Выбранный каталог:', directoryHandle);
+}
+</script>
+</head>
+<body>
+    <h1>Раскройте все возможности распознавания рукописного текста с помощью наших инновационных технологий</h1>
+    <p>Откройте для себя будущее распознавание рукописного текста: наша интуитивно-понятная платформа легко преобразует ваши аналоговые заметки в доступные для поиска</p>
+    <script src="App.js"></script>
+    <div class="background-image"></div>
+    <button onclick="openDirectory()">Попробуй сейчас</button>
+</body>
+</html>
+
+
